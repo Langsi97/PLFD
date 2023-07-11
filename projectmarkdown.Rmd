@@ -1,0 +1,28 @@
+---
+title: "Project Learning from data second chance exam"
+author: "Ambe Revelation Langsi (2262920)"
+date:  "`r Sys.Date()`"
+output:
+  pdf_document: 
+    latex_engine: xelatex
+  html_document:
+    df_print: paged   
+
+fontsize: 14pt
+mainfont: Arial
+header-includes: 
+  - \usepackage{titling}
+  - \pretitle{\begin{center}\LARGE\includegraphics[width=14cm]{UHasselt.png}\\[\bigskipamount]}
+  - \posttitle{\end{center}}
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+\centerline{\large Lecturer: Prof. Dr. Olivier Thas}
+
+\vspace{1cm}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
